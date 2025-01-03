@@ -6,7 +6,7 @@ export const defaultColor = {
   background: "#FFFFFF",
   backgroundSlate: "rgb(248 250 252)",
   textColorGray: "#6c757d",
-  50: "rgba(217, 4, 41, 0.5)",
+  50: "rgba(238, 88, 113, 0.5)",
   100: "rgba(217, 4, 41, 0.05)",
 };
 
