@@ -51,7 +51,7 @@ export default function DataFormModal({
           <div className="w-full  ">
             <InputName
               inputlabel="Reward Name"
-              placeholder="Type a name for the reward..."
+              placeholder="Type a name for the Reward..."
               onChange={onChange}
               value={textValue}
             />
@@ -61,7 +61,7 @@ export default function DataFormModal({
             onClick={onClick}
             className="bg-customRed text-white mt-10 p-3 px-6"
           >
-            {FormTitle === "Add Reward" ? "Add Reward" : "Edit Reward"}
+            {FormTitle === "Add Area" ? "Add Area" : "Edit Area"}
           </Button>
         </div>
       )}
