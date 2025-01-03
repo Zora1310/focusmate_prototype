@@ -50,8 +50,8 @@ export default function DataFormModal({
           <Header FormTitle={FormTitle} onClose={onClose} />
           <div className="w-full  ">
             <InputName
-              inputlabel="Area Name"
-              placeholder="Type a name for the area..."
+              inputlabel="Reward Name"
+              placeholder="Type a name for the reward..."
               onChange={onChange}
               value={textValue}
             />
@@ -61,7 +61,7 @@ export default function DataFormModal({
             onClick={onClick}
             className="bg-customRed text-white mt-10 p-3 px-6"
           >
-            {FormTitle === "Add Area" ? "Add Area" : "Edit Area"}
+            {FormTitle === "Add Reward" ? "Add Reward" : "Edit Reward"}
           </Button>
         </div>
       )}
