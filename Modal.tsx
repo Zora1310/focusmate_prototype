@@ -50,8 +50,8 @@ export default function DataFormModal({
           <Header FormTitle={FormTitle} onClose={onClose} />
           <div className="w-full  ">
             <InputName
-              inputlabel="Reward Name"
-              placeholder="Type a name for the Reward..."
+              inputlabel="Area Name"
+              placeholder="Type a name for the area..."
               onChange={onChange}
               value={textValue}
             />
