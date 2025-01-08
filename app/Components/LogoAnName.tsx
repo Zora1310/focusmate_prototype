@@ -18,9 +18,9 @@ function LogoAnName() {
           style={{ color: defaultColor.default }}
           className="font-bold text-mainColor"
         >
-          Focusmate
+          FocusMate
         </span>
-        <span className="font-light"> Stacker</span>
+        <span className="font-light"> Manager</span>
       </span>
     </div>
   );
