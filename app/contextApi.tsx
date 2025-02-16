@@ -22,6 +22,7 @@ import {
   faUsers,
 } from "@fortawesome/free-solid-svg-icons";
 import {
+  faHandsHelping,
   faChartSimple,
   faLayerGroup,
   faList,
@@ -135,7 +136,7 @@ function GlobalContextProvider({ children }: { children: ReactNode }) {
     { name: "All Habits", isSelected: true, icon: faRectangleList },
     { name: "Areas", isSelected: false, icon: faLayerGroup },
     { name: "Statistics", isSelected: false, icon: faChartSimple },
-    { name: "Help", isSelected: false},
+    { name: "Help", isSelected: false, icon: faHandsHelping },
   ]);
 
   const [allHabits, setAllHabits] = useState<HabitType[]>([]);
