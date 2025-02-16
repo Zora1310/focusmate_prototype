@@ -1,80 +1,27 @@
 import React from "react";
 
-const AppIcon = ({ color = "#000000", width = "64px", height = "64px" }) => (
-  <svg
-    viewBox="0 0 64 64"
-    xmlns="http://www.w3.org/2000/svg"
-    fill={color}
-    width={width}
-    height={height}
-  >
-    <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
-    <g
-      id="SVGRepo_tracerCarrier"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    ></g>
-    <g id="SVGRepo_iconCarrier">
-      <g fill="none" fillRule="evenodd">
-        <path
-          fill={color}
-          d="M32,28 C36.418278,28 40,24.418278 40,20 C40,15.581722 32,2 32,2 C32,2 24,15.581722 24,20 C24,24.418278 27.581722,28 32,28 Z"
-        ></path>
-        <path
-          fill={color}
-          d="M47.5044647,55.529591 C50.2658885,55.529591 52.5044647,53.1876959 52.5044647,50.2988218 C52.5044647,47.4099477 47.5044647,38.529591 47.5044647,38.529591 C47.5044647,38.529591 42.5044647,47.4099477 42.5044647,50.2988218 C42.5044647,53.1876959 44.743041,55.529591 47.5044647,55.529591 Z"
-          transform="rotate(75 47.504 47.03)"
-        ></path>
-        <path
-          fill={color}
-          d="M17.5044647,55.529591 C20.2658885,55.529591 22.5044647,53.1876959 22.5044647,50.2988218 C22.5044647,47.4099477 17.5044647,38.529591 17.5044647,38.529591 C17.5044647,38.529591 12.5044647,47.4099477 12.5044647,50.2988218 C12.5044647,53.1876959 14.743041,55.529591 17.5044647,55.529591 Z"
-          transform="scale(-1 1) rotate(75 0 24.217)"
-        ></path>
-        <path
-          stroke={color}
-          strokeLinecap="square"
-          strokeWidth="2"
-          d="M32,63 L32,16.9545689"
-        ></path>
-        <path
-          stroke={color}
-          strokeLinecap="round"
-          strokeWidth="2"
-          d="M44,48 C37.372583,48 32,53.372583 32,60"
-        ></path>
-        <path
-          stroke={color}
-          strokeLinecap="round"
-          strokeWidth="2"
-          d="M32,48 C25.372583,48 20,53.372583 20,60"
-          transform="matrix(-1 0 0 1 52 0)"
-        ></path>
-        <path
-          fill={color}
-          d="M47.5044647,41.529591 C50.2658885,41.529591 52.5044647,39.1876959 52.5044647,36.2988218 C52.5044647,33.4099477 47.5044647,24.529591 47.5044647,24.529591 C47.5044647,24.529591 42.5044647,33.4099477 42.5044647,36.2988218 C42.5044647,39.1876959 44.743041,41.529591 47.5044647,41.529591 Z"
-          transform="rotate(75 47.504 33.03)"
-        ></path>
-        <path
-          fill={color}
-          d="M17.5044647,41.529591 C20.2658885,41.529591 22.5044647,39.1876959 22.5044647,36.2988218 C22.5044647,33.4099477 17.5044647,24.529591 17.5044647,24.529591 C17.5044647,24.529591 12.5044647,33.4099477 12.5044647,36.2988218 C12.5044647,39.1876959 14.743041,41.529591 17.5044647,41.529591 Z"
-          transform="scale(-1 1) rotate(75 0 10.217)"
-        ></path>
-        <path
-          stroke={color}
-          strokeLinecap="round"
-          strokeWidth="2"
-          d="M44,34 C37.372583,34 32,39.372583 32,46"
-        ></path>
-        <path
-          stroke={color}
-          strokeLinecap="round"
-          strokeWidth="2"
-          d="M32,34 C25.372583,34 20,39.372583 20,46"
-          transform="matrix(-1 0 0 1 52 0)"
-        ></path>
-      </g>
-    </g>
-  </svg>
+const AppIcon = ({ color = "#1e1e1e0", width = "64px", height = "64px" }) => (
+<svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+  <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+  <g id="SVGRepo_iconCarrier">
+    <path 
+      opacity="0.5" 
+      d="M16 4.00195C18.175 4.01406 19.3529 4.11051 20.1213 4.87889C21 5.75757 21 7.17179 21 10.0002V16.0002C21 18.8286 21 20.2429 20.1213 21.1215C19.2426 22.0002 17.8284 22.0002 15 22.0002H9C6.17157 22.0002 4.75736 22.0002 3.87868 21.1215C3 20.2429 3 18.8286 3 16.0002V10.0002C3 7.17179 3 5.75757 3.87868 4.87889C4.64706 4.11051 5.82497 4.01406 8 4.00195" 
+      stroke="#1C274C" 
+      stroke-width="1.5"
+    />
+    <path d="M8 14H16" stroke="#1C274C" stroke-width="1.5" stroke-linecap="round" />
+    <path d="M7 10.5H17" stroke="#1C274C" stroke-width="1.5" stroke-linecap="round" />
+    <path d="M9 17.5H15" stroke="#1C274C" stroke-width="1.5" stroke-linecap="round" />
+    <path 
+      d="M8 3.5C8 2.67157 8.67157 2 9.5 2H14.5C15.3284 2 16 2.67157 16 3.5V4.5C16 5.32843 15.3284 6 14.5 6H9.5C8.67157 6 8 5.32843 8 4.5V3.5Z" 
+      stroke="#1C274C" 
+      stroke-width="1.5"
+    />
+  </g>
+</svg>
+
 );
 
 export default AppIcon;

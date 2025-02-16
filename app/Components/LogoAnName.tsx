@@ -11,7 +11,7 @@ function LogoAnName() {
           style={{ backgroundColor: defaultColor.default }}
           className=" p-2 rounded-md"
         >
-          <AppIcon color="#ffffff" height="34" width="34" />
+          <AppIcon color="#1e1e1e" height="34" width="34" />
         </div>
         {/* The Name of the app */}
         <span

@@ -7,6 +7,7 @@ import { useGlobalContextProvider } from "../contextApi";
 import { menuItemType } from "../Types/MenuItemType";
 import Areas from "../Pages/Areas/Areas";
 import AllHabits from "../Pages/AllHabits/AllHabits";
+import Help from "../Pages/Help/Help";
 import Statistics from "../Pages/Statistics/Statistics";
 import { LocalizationProvider } from "@mui/x-date-pickers";
 import { AdapterDayjs } from "@mui/x-date-pickers/AdapterDayjs";
@@ -56,6 +57,9 @@ function Dashboard() {
       selectComponent = <Areas />;
       break;
     case "All Areas":
+      break;
+    case "Help":
+      selectComponent = <Help />;
       break;
   }
 
