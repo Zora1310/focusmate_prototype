@@ -188,7 +188,7 @@ function HabitWindow() {
   return (
     <div
       style={{
-        backgroundColor: isDarkMode ? darkModeColor.background : "white",
+        backgroundColor: isDarkMode ? darkModeColor.background : "#FFE4E1",
         color: isDarkMode ? darkModeColor.textColor : "black",
       }}
       className={` top-[3%] left-1/2 transform -translate-x-1/2 w-[80%] z-50 p-10 
@@ -579,7 +579,7 @@ function WeeklyOption({
     <div className="mt-7 flex gap-20">
       <div className="flex flex-col gap-2">
         <span className="font-semibold">Frequency</span>
-        <span className="text-sm font-light text-gray-400">
+        <span className="text-sm font-light text-black-400">
           {weeks} times a week
         </span>
       </div>

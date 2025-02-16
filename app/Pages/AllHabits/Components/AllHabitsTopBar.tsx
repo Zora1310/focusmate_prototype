@@ -33,7 +33,8 @@ function AllHabitsTopBar() {
     return () => {
       window.removeEventListener("resize", handleResize);
     };
-  }, []);
+  },
+);
 
   return (
     <div
@@ -53,10 +54,10 @@ function AllHabitsTopBar() {
         <div className="flex flex-col max-md:hidden ">
           <span className="text-xl">
             <span className="font-bold">Hi There</span>
-            <span className="font-light">, Ali</span>
+            <span className="font-light">, User</span>
           </span>
-          <span className="font-light text-[12px] text-gray-400">
-            welcome back!
+          <span className="font-light text-[12px] text-black-400">
+            Welcome back!
           </span>
         </div>
       </div>

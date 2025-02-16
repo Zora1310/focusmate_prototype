@@ -3,10 +3,10 @@ export const defaultColor = {
   default: "#d90429",
   textColor: "#000000",
   textColor50: "#94A3B8",
-  background: "#FFFFFF",
+  background: "#FFE4E1",
   backgroundSlate: "rgb(248 250 252)",
   textColorGray: "#6c757d",
-  50: "rgba(244, 106, 129, 0.99)",
+  50: "rgba(217, 4, 41, 0.5)",
   100: "rgba(217, 4, 41, 0.05)",
 };
 

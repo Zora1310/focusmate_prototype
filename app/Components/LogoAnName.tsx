@@ -11,16 +11,16 @@ function LogoAnName() {
           style={{ backgroundColor: defaultColor.default }}
           className=" p-2 rounded-md"
         >
-          <AppIcon color="#ffffff" height="34" width="34" />
+          <AppIcon color="#1e1e1e" height="34" width="34" />
         </div>
         {/* The Name of the app */}
         <span
           style={{ color: defaultColor.default }}
           className="font-bold text-mainColor"
         >
-          Focusmate
+          FocusMate
         </span>
-        <span className="font-light"> Stacker</span>
+        <span className="font-light"> Manager</span>
       </span>
     </div>
   );
