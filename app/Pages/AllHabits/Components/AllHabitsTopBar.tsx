@@ -33,7 +33,8 @@ function AllHabitsTopBar() {
     return () => {
       window.removeEventListener("resize", handleResize);
     };
-  }, []);
+  },
+);
 
   return (
     <div
